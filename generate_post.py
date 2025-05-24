@@ -2,6 +2,7 @@ import argparse
 import os
 import re
 import openai # Added for OpenAI API integration
+import json
 
 # def generate_placeholder_content(topic: str) -> str:
 #     """
@@ -60,7 +61,8 @@ def generate_content_with_openai(topic_string: str) -> str | None:
         # For this subtask, we will return a placeholder if no key is found,
         # to allow testing the rest of the script flow.
         # In a real deployment, you might exit or raise an error.
-        return f"# {topic_string}\n\nThis is a placeholder because the OpenAI API key was not found. Please set the OPENAI_API_KEY environment variable."
+        placeholder_content = f"# {topic_string}\n\nThis is a placeholder because the OpenAI API key was not found. Please set the OPENAI_API_KEY environment variable.\n\nPublished: {{DATE}}\n"
+        return placeholder_content, "This is a placeholder meta description." # Return two values
 
     try:
         client = openai.OpenAI(api_key=api_key)
@@ -342,17 +344,6 @@ def main():
                 except IOError as e_meta:
                     print(f"Error writing empty meta file {meta_filepath}: {e_meta}")
 
-        except IOError as e:
-            print(f"Error writing file {filepath}: {e}")
-    else:
-        print(f"Failed to generate content for topic '{topic}'. Post not created.")
-
-if __name__ == "__main__":
-            with open(filepath, "w", encoding="utf-8") as f:
-                f.write(content)
-            print(f"Successfully generated post: {filepath}")
-            # Print the basename of the file to stdout for the workflow script
-            print(f"Generated filename: {os.path.basename(filepath)}") 
         except IOError as e:
             print(f"Error writing file {filepath}: {e}")
     else:

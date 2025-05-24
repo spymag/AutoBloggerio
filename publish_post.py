@@ -4,6 +4,8 @@ import markdown2
 import re
 import json # For handling posts.json
 from datetime import datetime, timezone # For timestamps
+
+def extract_h1_title(markdown_content: str, fallback_filename: str) -> str:
     """
     Extracts the H1 title from Markdown content.
     If no H1 is found, generates a title from the fallback_filename.
