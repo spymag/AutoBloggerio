@@ -3,7 +3,7 @@ name: Generate Daily Blog Posts
 on:
   schedule:
     # Runs daily at 00:00 UTC. Adjust as needed.
-    - cron: "0 0 * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch: # Allows manual triggering from the Actions tab
 
 jobs:
