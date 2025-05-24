@@ -52,6 +52,17 @@ def main():
         print(f"Error reading file {markdown_filepath}: {e}")
         return
 
+    # Replace {{DATE}} placeholder with current date
+    # Using UTC date for consistency, though a local date might also be acceptable
+    # depending on desired timezone handling for "Published" date.
+    # For this task, let's use the current UTC date.
+    current_date_formatted = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    markdown_content = markdown_content.replace("Published: {{DATE}}", f"Published: {current_date_formatted}")
+    # Also handle variations in case the placeholder has different spacing or casing,
+    # though the primary target is "Published: {{DATE}}"
+    markdown_content = re.sub(r'Published:\s*\{\{DATE\}\}', f"Published: {current_date_formatted}", markdown_content, flags=re.IGNORECASE)
+
+
     # 4. Convert Markdown to HTML
     try:
         html_content = markdown2.markdown(markdown_content, extras=["fenced-code-blocks", "cuddled-lists", "tables"])

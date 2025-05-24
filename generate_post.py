@@ -4,46 +4,6 @@ import re
 import openai # Added for OpenAI API integration
 import json
 
-# def generate_placeholder_content(topic: str) -> str:
-#     """
-#     Generates placeholder Markdown content for a blog post.
-#     (This function is now replaced by OpenAI integration)
-#     """
-#     # For now, this is a very simple placeholder.
-#     # In a real scenario, this would involve more sophisticated generation
-#     # or calling an external API (like a language model).
-
-#     lorem_ipsum_paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    
-#     content = f"# {topic}\n\n"
-#     content += "Published: {{DATE}}\n\n" # Placeholder for date, will be handled by build script
-#     content += f"This is an introductory paragraph about {topic.lower()}. {lorem_ipsum_paragraph}\n\n"
-#     content += f"## Subheading for {topic}\n\n"
-#     content += f"Here's some more detailed discussion about {topic.lower()}. {lorem_ipsum_paragraph}\n\n"
-#     content += "Let's look at a simple code example:\n\n"
-#     content += "```python\n"
-#     content += "# Example Python code\n"
-#     content += "def greet(name):\n"
-#     content += "    print(f\"Hello, {name}!\")\n\n"  # 'name' is a placeholder in the code string
-#     # Sanitize the topic string for safe inclusion in the generated Python code string
-#     # Specifically, escape any double quotes already present in the topic.
-#     sanitized_topic_for_code = topic.replace('"', '\\"') 
-#     content += f"greet(\"{sanitized_topic_for_code}\")\n"
-#     content += "```\n\n"
-#     content += f"In conclusion, {topic.lower()} is a fascinating subject. {lorem_ipsum_paragraph}\n\n"
-    
-#     # Ensure content is roughly 400 words
-#     # Current word count is low, let's add more paragraphs.
-#     # Each lorem_ipsum_paragraph is ~70 words. We have 3, so ~210 words.
-#     # Title, headings, code comments add a bit more.
-#     # Let's add 3 more paragraphs to get closer to 400.
-#     content += f"### Further details on {topic}\n\n"
-#     content += f"{lorem_ipsum_paragraph}\n\n"
-#     content += f"{lorem_ipsum_paragraph}\n\n"
-#     content += f"Final thoughts on {topic.lower()}. {lorem_ipsum_paragraph}\n"
-
-#     return content
-
 def generate_content_with_openai(topic_string: str) -> str | None:
     """
     Generates blog post content in Markdown format using the OpenAI API.
@@ -70,6 +30,8 @@ def generate_content_with_openai(topic_string: str) -> str | None:
         prompt = f"""
         Generate a blog post of approximately 400 words (around a 2-minute read)
         on the topic: "{topic_string}".
+
+        **Crucially, the generated content, including the title, must be entirely original and written in your own words. Do not copy or closely paraphrase from any external sources. Do not cite or mention any sources used for inspiration.**
 
         The output must be in Markdown format.
         The content should be engaging and informative.
