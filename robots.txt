@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow crawling of specific directories or files if needed
+# Disallow: /config/
+# Disallow: /CONTRIBUTING.md
+
+# IMPORTANT: Replace https://your-autobloggerio-site.netlify.app with your actual site URL
+Sitemap: https://your-autobloggerio-site.netlify.app/sitemap.xml

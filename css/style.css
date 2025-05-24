@@ -1,0 +1,166 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray for text - good contrast */
+    line-height: 1.6; /* Improved line height for readability */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+p { /* Add specific paragraph styling for better separation */
+    margin-bottom: 1rem; /* Default margin for paragraphs */
+    margin-top: 0;
+}
+
+header {
+    background: #333; /* Dark background for header */
+    color: #fff; /* White text for header - good contrast */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Slightly increased for impact */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 20px;
+    background: #fff; /* White background for content area */
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+}
+
+/* Basic styling for code blocks */
+pre {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto; /* For horizontal scrolling if code is too wide */
+    font-family: "Courier New", Courier, monospace;
+}
+
+code {
+    font-family: "Courier New", Courier, monospace;
+}
+
+article {
+    border-bottom: 1px #ccc dotted;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+article:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article a {
+    text-decoration: none;
+    color: #007bff; /* Blue for links - standard and good contrast */
+}
+
+article a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+.affiliate-disclosure {
+    font-size: 0.85em;
+    color: #555;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #ccc;
+}
+
+/* Ad Slot Styling */
+.ad-slot {
+    display: block; /* Ensures the div takes up full width available or respects its own width/height */
+    margin-left: auto; /* Helps in centering if a width is set */
+    margin-right: auto; /* Helps in centering if a width is set */
+    /* The inline styles already handle background, min-height, and text-align for placeholders */
+    /* Additional common styles could be added here if needed, e.g., clear: both; */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 0 15px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column; /* Stack nav links */
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0; /* Adjust margin for stacked links */
+    }
+
+    /* Ad slots might need adjustment for very small screens */
+    /* For now, they are fixed height. If they cause overflow, could hide them: */
+    /* .ad-slot { display: none; } */
+    /* Or reduce min-height if the ad network provides smaller units */
+    .ad-slot {
+        min-height: 50px; /* Example: reduce height for smaller ads */
+        line-height: 50px; /* Adjust line-height to match */
+        font-size: 0.8em; /* Smaller text for placeholder */
+    }
+}
