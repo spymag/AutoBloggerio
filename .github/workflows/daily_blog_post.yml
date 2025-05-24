@@ -9,6 +9,7 @@ on:
 jobs:
   build_and_publish:
     runs-on: ubuntu-latest
+    environment: autoBloggerio
     permissions:
       contents: write # Required to commit changes back to the repo
     steps:
