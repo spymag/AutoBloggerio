@@ -90,6 +90,11 @@ article h2 {
     margin-top: 0;
 }
 
+article h1 {
+    font-size: 32px;
+    margin-top: 0;
+}
+
 article a {
     text-decoration: none;
     color: #007bff; /* Blue for links - standard and good contrast */

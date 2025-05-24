@@ -15,6 +15,7 @@ def generate_content_with_openai(topic_string: str) -> str | None:
         The generated Markdown content as a string, or None if an error occurs.
     """
     api_key = os.getenv("OPENAI_API_KEY")
+    # REMOVE full_response_content = None # Initialize here
     if not api_key:
         print("Error: The OPENAI_API_KEY environment variable is not set.")
         print("Please set it to your OpenAI API key to use this feature.")
@@ -72,7 +73,9 @@ def generate_content_with_openai(topic_string: str) -> str | None:
         )
 
         if completion.choices and completion.choices[0].message:
-            full_response_content = completion.choices[0].message.content
+            full_response_content = completion.choices[0].message.content # Assigned if successful
+
+            # The rest of the logic for splitting meta description etc. follows below
             if full_response_content:
                 # Attempt to parse markdown and meta description
                 # Assuming "META_DESCRIPTION: " is on its own line or clearly separated.
@@ -97,7 +100,7 @@ def generate_content_with_openai(topic_string: str) -> str | None:
             print("Error: OpenAI API response did not contain the expected content structure.")
             return None
 
-    except openai.APIAuthenticationError as e:
+    except openai.AuthenticationError as e: # Changed from APIAuthenticationError
         print(f"OpenAI API Authentication Error: {e}")
         print("Please check your API key and ensure it's correctly set in OPENAI_API_KEY.")
     except openai.RateLimitError as e:
@@ -112,6 +115,7 @@ def generate_content_with_openai(topic_string: str) -> str | None:
         print(f"An OpenAI API error occurred: {e}")
     except Exception as e: # Catch any other unexpected errors
         print(f"An unexpected error occurred during OpenAI content generation: {e}")
+    # REMOVE THE FINALLY BLOCK
     
     return None, None # Return None if any error occurred
 
