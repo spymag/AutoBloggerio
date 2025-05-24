@@ -7,10 +7,4 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/sample-topic-1-major-tech-conference-kicks-off-this-week.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
 </urlset>
