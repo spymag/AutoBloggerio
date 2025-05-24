@@ -71,6 +71,8 @@ def generate_content_with_openai(topic_string: str) -> str | None:
         Generate a blog post of approximately 400 words (around a 2-minute read)
         on the topic: "{topic_string}".
 
+        **Crucially, the generated content, including the title, must be entirely original and written in your own words. Do not copy or closely paraphrase from any external sources. Do not cite or mention any sources used for inspiration.**
+
         The output must be in Markdown format.
         The content should be engaging and informative.
         It should include:
