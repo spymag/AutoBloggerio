@@ -1,0 +1,4 @@
+markdown2
+openai
+# pytrends # Commented out as it's being replaced by NewsAPI for topic discovery
+requests # For making HTTP requests to NewsAPI

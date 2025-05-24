@@ -1,0 +1,12 @@
+[
+  {
+    "keywords": ["sample product", "example tool", "specific keyword"],
+    "link": "https://www.amazon.com/your-product-link?tag=yourtag-20",
+    "description": "A great sample product for various needs."
+  },
+  {
+    "keywords": ["another service", "online course platform"],
+    "link": "https://www.coursera.org/your-course-link?utm_source=affiliate&utm_medium=yourid",
+    "description": "An online course platform for learning new skills."
+  }
+]
