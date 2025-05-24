@@ -31,7 +31,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: |
-          python main_daily_workflow.py --num_posts 2 --country us # Adjust params as needed
+          python main_daily_workflow.py --num_posts 3 --country us # Adjust params as needed
 
       - name: Commit and push changes
         run: |
