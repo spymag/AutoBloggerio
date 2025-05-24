@@ -20,6 +20,20 @@ def extract_h1_title(markdown_content: str, fallback_filename: str) -> str:
         # Capitalize first letter of each word
         return ' '.join(word.capitalize() for word in title.split())
 
+def sanitize_filename(topic: str) -> str:
+    """
+    Sanitizes the topic string to create a valid filename.
+    """
+    # Lowercase
+    s = topic.lower()
+    # Remove special characters, except hyphens and spaces
+    s = re.sub(r'[^\w\s-]', '', s)
+    # Replace spaces with hyphens
+    s = re.sub(r'\s+', '-', s)
+    # Remove leading/trailing hyphens
+    s = s.strip('-')
+    return s
+
 def main():
     # 1. Setup command-line argument parsing
     parser = argparse.ArgumentParser(description="Publish a blog post from a Markdown file.")
@@ -84,6 +98,7 @@ def main():
     # 6. Inject content into the template
     # Derive title
     post_title = extract_h1_title(markdown_content, markdown_file_basename)
+    sanitized_title_for_filename = sanitize_filename(post_title)
 
     # Replace placeholders
     final_html = template_content.replace("{{POST_TITLE}}", post_title)
@@ -132,7 +147,7 @@ def main():
     final_html = final_html.replace("{{META_DESCRIPTION}}", meta_description.replace('"', '&quot;')) # Escape quotes
 
     # 7. Save the new HTML file
-    html_filename = markdown_file_basename.replace(".md", ".html")
+    html_filename = sanitized_title_for_filename + ".html"
     output_filepath = os.path.join(blog_dir, html_filename)
     posts_json_path = "posts.json" # In the root directory
     sitemap_xml_path = "sitemap.xml" # In the root directory

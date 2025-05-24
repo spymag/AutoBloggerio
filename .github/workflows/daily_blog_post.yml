@@ -3,7 +3,7 @@ name: Generate Daily Blog Posts
 on:
   schedule:
     # Runs daily at 00:00 UTC. Adjust as needed.
-    - cron: "0 0 * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch: # Allows manual triggering from the Actions tab
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: |
-          python main_daily_workflow.py --num_posts 2 --country us # Adjust params as needed
+          python main_daily_workflow.py --num_posts 3 --country us # Adjust params as needed
 
       - name: Commit and push changes
         run: |
