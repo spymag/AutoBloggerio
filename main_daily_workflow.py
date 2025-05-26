@@ -121,10 +121,11 @@ def main():
         # Extract the generated Markdown filename from stdout
         # generate_post.py should print "Generated filename: <basename>"
         markdown_filename = None
-        for line in generate_process.stdout.strip().splitlines():
-            if line.startswith("Generated filename:"):
-                markdown_filename = line.split(":", 1)[-1].strip()
-                break
+        if generate_process and generate_process.stdout: # Check stdout exists before processing
+            for line in generate_process.stdout.strip().splitlines():
+                if line.startswith("Generated filename:"):
+                    markdown_filename = line.split(":", 1)[-1].strip()
+                    break
         
         if not markdown_filename:
             print(f"Could not determine Markdown filename for topic: \"{topic}\". Skipping publishing for this topic.")
