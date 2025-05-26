@@ -151,7 +151,7 @@ def main():
     output_filepath = os.path.join(blog_dir, html_filename)
     posts_json_path = "posts.json" # In the root directory
     sitemap_xml_path = "sitemap.xml" # In the root directory
-    site_url_placeholder = "https://your-autobloggerio-site.netlify.app" # Placeholder for sitemap
+    site_url_placeholder = "https://mgpconsultants.com/" # Placeholder for sitemap
 
     try:
         with open(output_filepath, "w", encoding="utf-8") as f:
