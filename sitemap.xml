@@ -3,9 +3,27 @@
 <!-- IMPORTANT: Replace https://mgpconsultants.com/ with your actual site URL -->
   <url>
     <loc>https://mgpconsultants.com//index.html</loc>
-    <lastmod>2025-05-26</lastmod>
+    <lastmod>2025-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/israeli-military-operation-in-gaza-claims-24-lives.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/trump-delays-imposition-of-tariffs-on-eu-until-july.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/googles-latest-innovations-unveiled-at-io-2025.html</loc>
+    <lastmod>2025-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mgpconsultants.com//blog/us-military-encourages-african-allies-to-enhance-self-reliance.html</loc>
@@ -51,12 +69,6 @@
   </url>
   <url>
     <loc>https://mgpconsultants.com//blog/booz-allen-hamiltons-workforce-reduction-in-response-to-government-spending-changes.html</loc>
-    <lastmod>2025-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/googles-latest-innovations-unveiled-at-io-2025.html</loc>
     <lastmod>2025-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
