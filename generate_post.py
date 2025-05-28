@@ -3,6 +3,7 @@ import os
 import re
 import openai # Added for OpenAI API integration
 import json
+from datetime import datetime # Added for date formatting
 
 def generate_content_with_openai(topic_string: str) -> str | None:
     """
@@ -22,7 +23,8 @@ def generate_content_with_openai(topic_string: str) -> str | None:
         # For this subtask, we will return a placeholder if no key is found,
         # to allow testing the rest of the script flow.
         # In a real deployment, you might exit or raise an error.
-        placeholder_content = f"# {topic_string}\n\nThis is a placeholder because the OpenAI API key was not found. Please set the OPENAI_API_KEY environment variable.\n\nPublished: {{DATE}}\n"
+        current_date = datetime.now().strftime("%B %d, %Y")
+        placeholder_content = f"# {topic_string}\n\nThis is a placeholder because the OpenAI API key was not found. Please set the OPENAI_API_KEY environment variable.\n\nPublished: {current_date}\n"
         return placeholder_content, "This is a placeholder meta description." # Return two values
 
     try:
@@ -42,9 +44,6 @@ def generate_content_with_openai(topic_string: str) -> str | None:
         3. Several subsequent paragraphs providing details, insights, or examples.
         4. Subheadings (H2 or H3) to structure the content where appropriate.
         5. A concluding paragraph.
-        6. Optionally, include a small, relevant code block (e.g., Python, JavaScript, or shell script)
-           if it fits naturally with the topic. Do not force a code block if it's not relevant.
-           Ensure code blocks are correctly formatted in Markdown (e.g., using triple backticks).
         
         The post should be well-structured and ready to publish.
         Do not include any preamble like "Here is your blog post:".
@@ -89,8 +88,9 @@ def generate_content_with_openai(topic_string: str) -> str | None:
                     print("Error: OpenAI API returned content but failed to parse Markdown part. Using full response as Markdown.")
                     generated_markdown = full_response_content.strip() # Fallback
                 
-                # Add a placeholder for the date, similar to the old function
-                generated_markdown_with_date = f"{generated_markdown}\n\nPublished: {{DATE}}\n"
+                # Add the current date, formatted
+                current_date = datetime.now().strftime("%B %d, %Y")
+                generated_markdown_with_date = f"{generated_markdown}\n\nPublished: {current_date}\n"
                 
                 return generated_markdown_with_date, meta_description
             else:
