@@ -65,7 +65,7 @@ def generate_content_with_openai(topic_string: str) -> str | None:
         # The current check for API key handles the missing key scenario.
 
         completion = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4.1-nano", #model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a helpful assistant that generates blog posts in Markdown format."},
                 {"role": "user", "content": prompt}
