@@ -1,134 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- IMPORTANT: Replace https://your-autobloggerio-site.netlify.app with your actual site URL -->
+<!-- IMPORTANT: Replace https://mgpconsultants.com/ with your actual site URL -->
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/index.html</loc>
-    <lastmod>2025-05-28</lastmod>
+    <loc>https://mgpconsultants.com//index.html</loc>
+    <lastmod>2025-05-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/npr-takes-legal-action-against-executive-order-limiting-funding.html</loc>
+    <loc>https://mgpconsultants.com//blog/market-stability-edges-ahead-of-nvidias-earnings-report.html</loc>
+    <lastmod>2025-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/stellantis-names-antonio-filosa-as-new-ceo-amid-transition.html</loc>
+    <lastmod>2025-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/google-unveils-its-most-ambitious-updates-at-io-2025.html</loc>
+    <lastmod>2025-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/npr-takes-legal-action-against-executive-order-limiting-funding.html</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/allegations-emerge-in-diddy-trial-former-employee-claims-producer-threatened-artist.html</loc>
+    <loc>https://mgpconsultants.com//blog/allegations-emerge-in-diddy-trial-former-employee-claims-producer-threatened-artist.html</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/npr-files-lawsuit-against-executive-order-limiting-funding.html</loc>
+    <loc>https://mgpconsultants.com//blog/npr-files-lawsuit-against-executive-order-limiting-funding.html</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/inside-the-diddy-trial-allegations-of-threats-against-kid-cudi-surface-during-testimony.html</loc>
+    <loc>https://mgpconsultants.com//blog/inside-the-diddy-trial-allegations-of-threats-against-kid-cudi-surface-during-testimony.html</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/googles-major-announcements-unveiled-at-io-2025.html</loc>
+    <loc>https://mgpconsultants.com//blog/googles-major-announcements-unveiled-at-io-2025.html</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/ex-employee-alleges-diddy-made-threats-against-kid-cudi-during-trial-testimony.html</loc>
+    <loc>https://mgpconsultants.com//blog/ex-employee-alleges-diddy-made-threats-against-kid-cudi-during-trial-testimony.html</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/daily-vitamin-intake-linked-to-slower-aging.html</loc>
+    <loc>https://mgpconsultants.com//blog/daily-vitamin-intake-linked-to-slower-aging.html</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/police-confirm-one-perpetrator-in-liverpool-soccer-fans-incident.html</loc>
+    <loc>https://mgpconsultants.com//blog/police-confirm-one-perpetrator-in-liverpool-soccer-fans-incident.html</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/google-unveils-exciting-innovations-at-io-2025.html</loc>
+    <loc>https://mgpconsultants.com//blog/google-unveils-exciting-innovations-at-io-2025.html</loc>
     <lastmod>2025-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/israeli-military-operation-in-gaza-claims-24-lives.html</loc>
+    <loc>https://mgpconsultants.com//blog/israeli-military-operation-in-gaza-claims-24-lives.html</loc>
     <lastmod>2025-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/trump-delays-imposition-of-tariffs-on-eu-until-july.html</loc>
+    <loc>https://mgpconsultants.com//blog/trump-delays-imposition-of-tariffs-on-eu-until-july.html</loc>
     <lastmod>2025-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/googles-latest-innovations-unveiled-at-io-2025.html</loc>
+    <loc>https://mgpconsultants.com//blog/googles-latest-innovations-unveiled-at-io-2025.html</loc>
     <lastmod>2025-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/us-military-encourages-african-allies-to-enhance-self-reliance.html</loc>
+    <loc>https://mgpconsultants.com//blog/us-military-encourages-african-allies-to-enhance-self-reliance.html</loc>
     <lastmod>2025-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/google-io-2025-a-recap-of-the-latest-innovations.html</loc>
+    <loc>https://mgpconsultants.com//blog/google-io-2025-a-recap-of-the-latest-innovations.html</loc>
     <lastmod>2025-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/russias-devastating-aerial-strike-and-prisoner-swap-in-ukraine.html</loc>
+    <loc>https://mgpconsultants.com//blog/russias-devastating-aerial-strike-and-prisoner-swap-in-ukraine.html</loc>
     <lastmod>2025-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/google-io-2025-a-look-at-the-latest-innovations-and-updates.html</loc>
+    <loc>https://mgpconsultants.com//blog/google-io-2025-a-look-at-the-latest-innovations-and-updates.html</loc>
     <lastmod>2025-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/siakam-shines-as-pacers-secure-2-0-lead-against-knicks-in-east-finals.html</loc>
+    <loc>https://mgpconsultants.com//blog/siakam-shines-as-pacers-secure-2-0-lead-against-knicks-in-east-finals.html</loc>
     <lastmod>2025-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/trumps-approval-paves-way-for-nippons-merger-with-us-steel.html</loc>
+    <loc>https://mgpconsultants.com//blog/trumps-approval-paves-way-for-nippons-merger-with-us-steel.html</loc>
     <lastmod>2025-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/booz-allen-hamiltons-workforce-reduction-in-response-to-government-spending-changes.html</loc>
+    <loc>https://mgpconsultants.com//blog/booz-allen-hamiltons-workforce-reduction-in-response-to-government-spending-changes.html</loc>
     <lastmod>2025-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/trumps-approval-paves-the-way-for-nippons-merger-with-us-steel.html</loc>
+    <loc>https://mgpconsultants.com//blog/trumps-approval-paves-the-way-for-nippons-merger-with-us-steel.html</loc>
     <lastmod>2025-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-autobloggerio-site.netlify.app/blog/booz-allen-hamilton-announces-2500-consulting-job-cuts-amid-federal-spending-restrictions.html</loc>
+    <loc>https://mgpconsultants.com//blog/booz-allen-hamilton-announces-2500-consulting-job-cuts-amid-federal-spending-restrictions.html</loc>
     <lastmod>2025-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
