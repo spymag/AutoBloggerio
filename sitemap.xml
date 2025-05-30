@@ -3,9 +3,15 @@
 <!-- IMPORTANT: Replace https://mgpconsultants.com/ with your actual site URL -->
   <url>
     <loc>https://mgpconsultants.com//index.html</loc>
-    <lastmod>2025-05-29</lastmod>
+    <lastmod>2025-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/google-unveils-groundbreaking-innovations-at-io-2025.html</loc>
+    <lastmod>2025-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mgpconsultants.com//blog/market-stability-edges-ahead-of-nvidias-earnings-report.html</loc>
