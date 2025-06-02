@@ -1,8 +1,21 @@
 import argparse
 import os
+import random # For random selection of AI topics
 import requests # For making HTTP requests to NewsAPI
 
 # Pytrends related code has been removed.
+
+AI_SEARCH_TERMS = [
+    "Machine Learning",
+    "Natural Language Processing",
+    "AI Ethics",
+    "Generative AI",
+    "Robotics",
+    "AI in Healthcare",
+    "AI in Finance",
+    "Computer Vision",
+    "Deep Learning"
+]
 
 def get_topics_from_newsapi(num_topics: int = 2, country_code: str = 'us'):
     api_key = os.getenv("NEWSAPI_KEY")
@@ -40,43 +53,90 @@ def get_topics_from_newsapi(num_topics: int = 2, country_code: str = 'us'):
 
     # 1. Fetch AI Topic
     if num_topics >= 1:
-        ai_params = {
-            'q': '"Artificial Intelligence" OR AI', 
-            'language': 'en', 
-            'pageSize': 5, 
-            'sortBy': 'relevancy', 
-            'apiKey': api_key
-        }
-        print(f"Fetching 1 AI-related topic from NewsAPI...")
-        try:
-            response_ai = requests.get(everything_url, params=ai_params, timeout=10)
-            response_ai.raise_for_status()
-            data_ai = response_ai.json()
+        ai_topic_found = False
+        search_terms_to_try = random.sample(AI_SEARCH_TERMS, len(AI_SEARCH_TERMS)) # Shuffle terms for random attempt order
 
-            if data_ai.get("status") == "ok" and data_ai.get("articles"):
-                for article in data_ai["articles"]:
-                    title = article.get('title')
-                    if title and title not in processed_topic_titles:
-                        all_fetched_topics.append(title)
-                        processed_topic_titles.add(title)
-                        print(f"Found AI topic: {title}")
-                        break 
-                if not any("AI" in topic or "Artificial Intelligence" in topic for topic in all_fetched_topics if topic): # Check if any fetched topic is AI related
-                    print("No AI-specific topic found in the first batch of AI query, will rely on general news if needed.")
-            else:
-                error_message = data_ai.get('message', 'No articles found or error')
-                print(f"Could not fetch AI specific topics: {error_message} (Code: {data_ai.get('code')})")
-        except requests.exceptions.HTTPError as http_err_ai:
-            error_details_ai = ""
+        for term_index, ai_term in enumerate(search_terms_to_try):
+            print(f"Attempting to fetch AI topic with term: \"{ai_term}\"")
+            ai_params = {
+                'q': ai_term,
+                'language': 'en',
+                'pageSize': 5,
+                'sortBy': 'relevancy',
+                'apiKey': api_key
+            }
             try:
-                error_details_ai = http_err_ai.response.json().get('message', str(http_err_ai.response.text))
-            except:
-                error_details_ai = str(http_err_ai.response.text)
-            print(f"HTTP error fetching AI topics: {http_err_ai} - {error_details_ai}")
-        except requests.exceptions.RequestException as e_ai:
-            print(f"Error fetching AI topics: {e_ai}")
-        except ValueError as json_err_ai: 
-            print(f"Error decoding JSON response for AI topics from NewsAPI: {json_err_ai}")
+                response_ai = requests.get(everything_url, params=ai_params, timeout=10)
+                response_ai.raise_for_status()
+                data_ai = response_ai.json()
+
+                if data_ai.get("status") == "ok" and data_ai.get("articles"):
+                    for article in data_ai["articles"]:
+                        title = article.get('title')
+                        if title and title not in processed_topic_titles:
+                            all_fetched_topics.append(title)
+                            processed_topic_titles.add(title)
+                            print(f"Found AI topic: {title} (using term: \"{ai_term}\")")
+                            ai_topic_found = True
+                            break 
+                    if ai_topic_found:
+                        break # Exit the loop once an AI topic is found
+                else:
+                    error_message = data_ai.get('message', 'No articles found or error with this term')
+                    print(f"Could not fetch AI specific topics with term \"{ai_term}\": {error_message} (Code: {data_ai.get('code')})")
+            
+            except requests.exceptions.HTTPError as http_err_ai:
+                error_details_ai = ""
+                try:
+                    error_details_ai = http_err_ai.response.json().get('message', str(http_err_ai.response.text))
+                except: # Fallback if response is not JSON or message key is missing
+                    error_details_ai = str(http_err_ai.response.text if http_err_ai.response else http_err_ai)
+                print(f"HTTP error fetching AI topics with term \"{ai_term}\": {http_err_ai} - {error_details_ai}")
+            except requests.exceptions.RequestException as e_ai:
+                print(f"Request error fetching AI topics with term \"{ai_term}\": {e_ai}")
+            except ValueError as json_err_ai: # Handles JSON decoding errors
+                print(f"Error decoding JSON response for AI topics (term: \"{ai_term}\") from NewsAPI: {json_err_ai}")
+
+            if term_index < len(search_terms_to_try) - 1 and not ai_topic_found:
+                print(f"Trying next AI search term...")
+            elif not ai_topic_found:
+                print("All specific AI terms failed. Falling back to broader AI query.")
+                # Fallback to the original broader query
+                ai_params['q'] = '"Artificial Intelligence" OR AI'
+                print(f"Fetching 1 AI-related topic with fallback query...")
+                try:
+                    response_ai = requests.get(everything_url, params=ai_params, timeout=10)
+                    response_ai.raise_for_status()
+                    data_ai = response_ai.json()
+
+                    if data_ai.get("status") == "ok" and data_ai.get("articles"):
+                        for article in data_ai["articles"]:
+                            title = article.get('title')
+                            if title and title not in processed_topic_titles:
+                                all_fetched_topics.append(title)
+                                processed_topic_titles.add(title)
+                                print(f"Found AI topic with fallback query: {title}")
+                                ai_topic_found = True
+                                break
+                        if not ai_topic_found:
+                             print("No AI-specific topic found even with the broad fallback query.")
+                    else:
+                        error_message = data_ai.get('message', 'No articles found or error with fallback')
+                        print(f"Could not fetch AI specific topics with fallback: {error_message} (Code: {data_ai.get('code')})")
+                except requests.exceptions.HTTPError as http_err_fallback:
+                    error_details_fallback = ""
+                    try:
+                        error_details_fallback = http_err_fallback.response.json().get('message', str(http_err_fallback.response.text))
+                    except:
+                         error_details_fallback = str(http_err_fallback.response.text if http_err_fallback.response else http_err_fallback)
+                    print(f"HTTP error on fallback AI query: {http_err_fallback} - {error_details_fallback}")
+                except requests.exceptions.RequestException as e_fallback:
+                    print(f"Error on fallback AI query: {e_fallback}")
+                except ValueError as json_err_fallback:
+                    print(f"Error decoding JSON for fallback AI query: {json_err_fallback}")
+        
+        if not ai_topic_found:
+            print("No AI-specific topic could be fetched after all attempts. General news fetching will proceed if needed.")
 
     # 2. Fetch General Topics if still needed
     remaining_topics_needed = num_topics - len(all_fetched_topics)
