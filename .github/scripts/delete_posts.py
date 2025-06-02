@@ -1,5 +1,6 @@
 import os
 import json
+import sys
 from datetime import datetime
 
 POSTS_JSON_PATH = "posts.json"
@@ -169,7 +170,14 @@ def update_posts_json(all_posts, posts_to_delete_objects, file_path):
         post for post in all_posts 
         if (get_post_filenames(post)[0], post.get("date")) not in deleted_post_keys
     ]
-    
+
+    # Re-sort posts by date (newest first) before writing
+    try:
+        updated_posts.sort(key=lambda p: datetime.fromisoformat(p["date"].replace("Z", "+00:00")), reverse=True)
+        print(f"Re-sorted {len(updated_posts)} posts by date (newest first).")
+    except Exception as e:
+        # Log an error if sorting fails for some reason, but proceed with unsorted if necessary
+        print(f"Warning: Could not re-sort posts before saving: {e}")
     try:
         with open(file_path, "w") as f:
             json.dump(updated_posts, f, indent=4)
