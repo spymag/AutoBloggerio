@@ -3,9 +3,27 @@
 <!-- IMPORTANT: Replace https://mgpconsultants.com/ with your actual site URL -->
   <url>
     <loc>https://mgpconsultants.com//index.html</loc>
-    <lastmod>2025-06-01</lastmod>
+    <lastmod>2025-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/indiana-surges-past-new-york-to-reach-the-2025-nba-finals.html</loc>
+    <lastmod>2025-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/tragedy-unfolds-in-gaza-as-lives-lost-in-conflict.html</loc>
+    <lastmod>2025-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/google-unveils-a-bold-new-vision-at-io-2025.html</loc>
+    <lastmod>2025-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mgpconsultants.com//blog/chinese-students-seek-alternatives-amid-us-visa-restrictions.html</loc>
