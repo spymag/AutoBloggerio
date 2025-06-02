@@ -178,7 +178,6 @@ def update_posts_json(all_posts, posts_to_delete_objects, file_path):
     except Exception as e:
         # Log an error if sorting fails for some reason, but proceed with unsorted if necessary
         print(f"Warning: Could not re-sort posts before saving: {e}")
-
     try:
         with open(file_path, "w") as f:
             json.dump(updated_posts, f, indent=4)
@@ -329,4 +328,5 @@ def main():
     # Implied sys.exit(0) if no errors forced an earlier exit.
 
 if __name__ == "__main__":
+    import sys # Import sys here for sys.exit()
     main()
