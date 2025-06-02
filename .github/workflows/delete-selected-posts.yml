@@ -1,0 +1,89 @@
+name: Delete Selected Posts
+
+on:
+  workflow_dispatch:
+    inputs:
+      posts_to_delete_input:
+        description: 'Indices of posts to delete (e.g., "0 3 5" or "1-3 5"). Overrides repository variable.'
+        required: false
+        type: string
+  schedule:
+    - cron: '0 0 * * *' # Daily at midnight UTC
+  # Allow reading from repository variables if manual input is not provided.
+
+jobs:
+  delete_posts_job:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push changes back to the repository
+      
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10' # Or your preferred Python version
+
+      - name: Determine POSTS_TO_DELETE value
+        id: set_posts_env
+        run: |
+          if [[ -n "${{ github.event.inputs.posts_to_delete_input }}" ]]; then
+            echo "POSTS_TO_DELETE_VALUE=${{ github.event.inputs.posts_to_delete_input }}" >> $GITHUB_ENV
+            echo "Using manual input for POSTS_TO_DELETE."
+          elif [[ -n "${{ vars.POSTS_TO_DELETE }}" ]]; then
+            echo "POSTS_TO_DELETE_VALUE=${{ vars.POSTS_TO_DELETE }}" >> $GITHUB_ENV
+            echo "Using repository variable POSTS_TO_DELETE."
+          else
+            echo "POSTS_TO_DELETE_VALUE=" >> $GITHUB_ENV
+            echo "POSTS_TO_DELETE is not set via input or repository variable. Using empty string."
+          fi
+
+      - name: Run Deletion Script
+        env:
+          POSTS_TO_DELETE: ${{ env.POSTS_TO_DELETE_VALUE }}
+        run: |
+          python .github/scripts/delete_posts.py
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Check for changes
+        id: git_status
+        run: |
+          changes=$(git status --porcelain)
+          if [[ -n "$changes" ]]; then
+            echo "Changes detected."
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "No changes detected."
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+          echo "Git status output:"
+          echo "$changes"
+
+
+      - name: Commit and Push Changes
+        if: steps.git_status.outputs.changed == 'true'
+        run: |
+          # Add all changes (new, modified, deleted files)
+          git add -A
+          
+          # Commit the changes
+          git commit -m "Automated post deletion by GitHub Action"
+          
+          # Push the changes
+          # The GITHUB_TOKEN is automatically used by actions/checkout for push operations
+          # when the 'contents: write' permission is set.
+          # Need to ensure the branch is correctly identified, especially for scheduled runs.
+          # Using `git push` should push to the branch the workflow is running on.
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: No changes to commit
+        if: steps.git_status.outputs.changed == 'false'
+        run: echo "No changes were made by the script, so no commit will be made."
