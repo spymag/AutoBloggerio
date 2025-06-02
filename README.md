@@ -58,6 +58,44 @@ If you have deployed this project to Netlify (or a similar static site hosting s
 
 That's it! Once configured, the GitHub Action will handle the daily content generation and updates for your Autoblogger.
 
+## Delete Selected Posts GitHub Action
+
+This project includes a GitHub Actions workflow defined in `.github/workflows/delete-selected-posts.yml` to help you remove specific blog posts from your site.
+
+### How It Works
+
+The workflow can be triggered in two ways:
+
+1.  **Manually**: You can trigger it from the GitHub Actions tab ("Delete Selected Posts" workflow) using `workflow_dispatch`. When running manually, you can provide an input named `posts_to_delete_input`.
+2.  **Scheduled**: It is also scheduled to run daily at midnight UTC, though for deletion, manual triggering is more common.
+
+### Specifying Posts for Deletion
+
+The posts to be deleted are specified by a string of 0-based indices, where `0` is the oldest post, `1` is the next oldest, and so on. The format can be:
+*   Space-separated individual numbers (e.g., `"0 3 5"`).
+*   Space-separated ranges (e.g., `"0-2 4 6-7"`). A range "a-b" includes all posts from index `a` to `b`.
+
+This string is provided via:
+*   The `posts_to_delete_input` field when triggering the action manually.
+*   The `POSTS_TO_DELETE` repository variable (under Settings -> Secrets and variables -> Actions -> Variables) if the manual input is not provided or for scheduled runs.
+
+### Actions Performed
+
+When the workflow runs, the `.github/scripts/delete_posts.py` script will:
+1.  Parse the input indices.
+2.  Load and sort all posts from `posts.json` by date (oldest first).
+3.  Identify the specific posts corresponding to the given indices.
+4.  Delete the associated files for each selected post:
+    *   HTML file from the `blog/` directory.
+    *   Markdown file from the `posts/` directory.
+    *   Meta file from the `posts/` directory.
+5.  Update `posts.json` by removing the entries for the deleted posts.
+6.  Regenerate the `sitemap.xml` to reflect the changes.
+
+### Automatic Commit
+
+If any posts are deleted, the workflow will automatically commit the changes (deleted files, updated `posts.json`, and new `sitemap.xml`) back to your repository.
+
 ## Important Placeholders to Customize
 
 Before deploying or using your Autobloggerio site extensively, make sure to update the following placeholder values:
