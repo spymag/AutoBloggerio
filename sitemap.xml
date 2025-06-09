@@ -1,190 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- IMPORTANT: Replace https://mgpconsultants.com/ with your actual site URL -->
   <url>
-    <loc>https://mgpconsultants.com//index.html</loc>
-    <lastmod>2025-06-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <loc>https://your-autobloggerio-site.netlify.app/index.html</loc>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/rising-tensions-russia-unleashes-record-breaking-drone-assault-on-kharkiv.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/rising-tensions-russia-unleashes-record-breaking-drone-assault-on-kharkiv.html</loc>
     <lastmod>2025-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/dramatic-ot-win-sends-panthers-level-in-stanley-cup-final.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/dramatic-ot-win-sends-panthers-level-in-stanley-cup-final.html</loc>
     <lastmod>2025-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/pope-leo-xiv-and-the-modern-inspiration-behind-his-papal-name.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/pope-leo-xiv-and-the-modern-inspiration-behind-his-papal-name.html</loc>
     <lastmod>2025-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/elon-musk-faces-backlash-within-the-gop-after-public-criticism-of-trump.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/elon-musk-faces-backlash-within-the-gop-after-public-criticism-of-trump.html</loc>
     <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/tyrese-haliburton-santifies-indiana-pacers-playoff-debut-with-last-second-win-over-thunder.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/tyrese-haliburton-santifies-indiana-pacers-playoff-debut-with-last-second-win-over-thunder.html</loc>
     <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/apples-next-frontier-developing-a-brain-computer-interface.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/apples-next-frontier-developing-a-brain-computer-interface.html</loc>
     <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/dramatic-victory-texas-surges-past-texas-tech-in-wild-wcws-opener.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/dramatic-victory-texas-surges-past-texas-tech-in-wild-wcws-opener.html</loc>
     <lastmod>2025-06-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/how-workdays-new-product-leader-is-inspiring-a-fresh-love-for-the-platform.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/how-workdays-new-product-leader-is-inspiring-a-fresh-love-for-the-platform.html</loc>
     <lastmod>2025-06-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/south-korean-stocks-surge-2-amid-election-victory-boost.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/south-korean-stocks-surge-2-amid-election-victory-boost.html</loc>
     <lastmod>2025-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/the-mysterious-waving-of-cuttlefish-communication-or-something-else.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/the-mysterious-waving-of-cuttlefish-communication-or-something-else.html</loc>
     <lastmod>2025-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/global-economic-outlook-dims-as-us-growth-projections-slashed-amid-trade-tensions.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/global-economic-outlook-dims-as-us-growth-projections-slashed-amid-trade-tensions.html</loc>
     <lastmod>2025-06-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/the-mysterious-gestures-of-cuttlefish-what-are-they-really-communicating.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/the-mysterious-gestures-of-cuttlefish-what-are-they-really-communicating.html</loc>
     <lastmod>2025-06-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/conservative-historian-wins-polands-presidential-election-amid-shifting-political-landscape.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/conservative-historian-wins-polands-presidential-election-amid-shifting-political-landscape.html</loc>
     <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/apples-frontier-the-quest-to-build-a-brain-computer-interface.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/apples-frontier-the-quest-to-build-a-brain-computer-interface.html</loc>
     <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/renewed-talks-amidst-lingering-tensions-a-closer-look-at-russia-ukraine-peace-negotiations.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/renewed-talks-amidst-lingering-tensions-a-closer-look-at-russia-ukraine-peace-negotiations.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/spanish-grand-prix-2025-russell-criticizes-verstappen-after-on-track-incident.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/spanish-grand-prix-2025-russell-criticizes-verstappen-after-on-track-incident.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/tech-giants-are-investing-heavily-in-the-future-of-healthcare-ai.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/tech-giants-are-investing-heavily-in-the-future-of-healthcare-ai.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/renewed-peace-talks-between-russia-and-ukraine-hope-or-hopelessness.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/renewed-peace-talks-between-russia-and-ukraine-hope-or-hopelessness.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/dominating-the-spanish-gp-russell-criticizes-verstappens-controversial-collision.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/dominating-the-spanish-gp-russell-criticizes-verstappens-controversial-collision.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/google-photos-unveils-exclusive-pixel-ai-tools-in-a-newly-redesigned-editor.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/google-photos-unveils-exclusive-pixel-ai-tools-in-a-newly-redesigned-editor.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/indiana-surges-past-new-york-to-reach-the-2025-nba-finals.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/indiana-surges-past-new-york-to-reach-the-2025-nba-finals.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/tragedy-unfolds-in-gaza-as-lives-lost-in-conflict.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/tragedy-unfolds-in-gaza-as-lives-lost-in-conflict.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/google-unveils-a-bold-new-vision-at-io-2025.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/google-unveils-a-bold-new-vision-at-io-2025.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/chinese-students-seek-alternatives-amid-us-visa-restrictions.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/chinese-students-seek-alternatives-amid-us-visa-restrictions.html</loc>
     <lastmod>2025-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/fbi-investigates-unauthorized-impersonation-of-leading-political-advisor.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/knicks-extend-their-playoff-journey-thanks-to-jalen-brunsons-clutch-performance-in-game-5.html</loc>
     <lastmod>2025-05-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/knicks-extend-their-playoff-journey-thanks-to-jalen-brunsons-clutch-performance-in-game-5.html</loc>
-    <lastmod>2025-05-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/stellantis-names-antonio-filosa-as-new-ceo-amid-transition.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/stellantis-names-antonio-filosa-as-new-ceo-amid-transition.html</loc>
     <lastmod>2025-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/npr-takes-legal-action-against-executive-order-limiting-funding.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/npr-takes-legal-action-against-executive-order-limiting-funding.html</loc>
     <lastmod>2025-05-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/npr-files-lawsuit-against-executive-order-limiting-funding.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/npr-files-lawsuit-against-executive-order-limiting-funding.html</loc>
     <lastmod>2025-05-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/googles-major-announcements-unveiled-at-io-2025.html</loc>
-    <lastmod>2025-05-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>
