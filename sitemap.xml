@@ -1,214 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- IMPORTANT: Replace https://mgpconsultants.com/ with your actual site URL -->
   <url>
-    <loc>https://mgpconsultants.com//index.html</loc>
-    <lastmod>2025-06-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <loc>https://your-autobloggerio-site.netlify.app/index.html</loc>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/unpredictable-weather-forecast-clouds-over-dc-during-major-military-parade.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/unpredictable-weather-forecast-clouds-over-dc-during-major-military-parade.html</loc>
     <lastmod>2025-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/thrilling-turnaround-keeps-nba-finals-alive-as-thunder-stake-claim-in-game-4.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/thrilling-turnaround-keeps-nba-finals-alive-as-thunder-stake-claim-in-game-4.html</loc>
     <lastmod>2025-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/google-photos-introduces-exclusive-pixel-ai-features-with-a-fresh-editing-experience.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/google-photos-introduces-exclusive-pixel-ai-features-with-a-fresh-editing-experience.html</loc>
     <lastmod>2025-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/google-photos-unveils-pixel-exclusive-ai-enhancements-in-overhauled-editing-suite.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/google-photos-unveils-pixel-exclusive-ai-enhancements-in-overhauled-editing-suite.html</loc>
     <lastmod>2025-06-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/the-mixed-crowd-reaction-at-the-kennedy-center-during-trumps-speech.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/the-mixed-crowd-reaction-at-the-kennedy-center-during-trumps-speech.html</loc>
     <lastmod>2025-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/european-markets-slip-amidst-uk-economic-contraction-and-ongoing-uncertainty.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/european-markets-slip-amidst-uk-economic-contraction-and-ongoing-uncertainty.html</loc>
     <lastmod>2025-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/apples-bold-venture-into-brain-computer-interface-technology.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/apples-bold-venture-into-brain-computer-interface-technology.html</loc>
     <lastmod>2025-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/navigating-uncertainty-the-challenges-facing-rishi-sunaks-economic-strategy.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/navigating-uncertainty-the-challenges-facing-rishi-sunaks-economic-strategy.html</loc>
     <lastmod>2025-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/the-spotlight-on-deep-learning-overshadowing-critical-fact-checking.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/the-spotlight-on-deep-learning-overshadowing-critical-fact-checking.html</loc>
     <lastmod>2025-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/dispute-arises-as-california-union-leader-faces-legal-action-over-ice-protest.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/dispute-arises-as-california-union-leader-faces-legal-action-over-ice-protest.html</loc>
     <lastmod>2025-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/unexpected-military-engagement-israeli-navy-attacks-rebel-controlled-hodeida-port.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/unexpected-military-engagement-israeli-navy-attacks-rebel-controlled-hodeida-port.html</loc>
     <lastmod>2025-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/smart-solutions-how-ai-and-robotics-are-revolutionizing-factory-maintenance.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/smart-solutions-how-ai-and-robotics-are-revolutionizing-factory-maintenance.html</loc>
     <lastmod>2025-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/new-immigration-restrictions-launch-as-tensions-flare-over-enforcement-policies.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/new-immigration-restrictions-launch-as-tensions-flare-over-enforcement-policies.html</loc>
     <lastmod>2025-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/israel-prepares-to-intercept-aid-convoy-led-by-greta-thunberg-and-activists-en-route-to-gaza.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/israel-prepares-to-intercept-aid-convoy-led-by-greta-thunberg-and-activists-en-route-to-gaza.html</loc>
     <lastmod>2025-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/harnessing-ai-and-robotics-to-prevent-factory-breakdowns-and-boost-profitability.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/harnessing-ai-and-robotics-to-prevent-factory-breakdowns-and-boost-profitability.html</loc>
     <lastmod>2025-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/metas-strategic-move-possible-10-billion-investment-in-scale-ai-reveals-bigger-ai-ambitions.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/metas-strategic-move-possible-10-billion-investment-in-scale-ai-reveals-bigger-ai-ambitions.html</loc>
     <lastmod>2025-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/ufc-316-showcases-thrilling-main-card-battles-featuring-dvalishvili-and-omalley.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/ufc-316-showcases-thrilling-main-card-battles-featuring-dvalishvili-and-omalley.html</loc>
     <lastmod>2025-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/pioneering-speed-how-nvidia-and-microsoft-are-transforming-ai-power-on-personal-computers.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/pioneering-speed-how-nvidia-and-microsoft-are-transforming-ai-power-on-personal-computers.html</loc>
     <lastmod>2025-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/rising-tensions-russia-unleashes-record-breaking-drone-assault-on-kharkiv.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/rising-tensions-russia-unleashes-record-breaking-drone-assault-on-kharkiv.html</loc>
     <lastmod>2025-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/dramatic-ot-win-sends-panthers-level-in-stanley-cup-final.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/dramatic-ot-win-sends-panthers-level-in-stanley-cup-final.html</loc>
     <lastmod>2025-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/pope-leo-xiv-and-the-modern-inspiration-behind-his-papal-name.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/pope-leo-xiv-and-the-modern-inspiration-behind-his-papal-name.html</loc>
     <lastmod>2025-06-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/elon-musk-faces-backlash-within-the-gop-after-public-criticism-of-trump.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/elon-musk-faces-backlash-within-the-gop-after-public-criticism-of-trump.html</loc>
     <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/tyrese-haliburton-santifies-indiana-pacers-playoff-debut-with-last-second-win-over-thunder.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/tyrese-haliburton-santifies-indiana-pacers-playoff-debut-with-last-second-win-over-thunder.html</loc>
     <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/apples-next-frontier-developing-a-brain-computer-interface.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/apples-next-frontier-developing-a-brain-computer-interface.html</loc>
     <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/dramatic-victory-texas-surges-past-texas-tech-in-wild-wcws-opener.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/dramatic-victory-texas-surges-past-texas-tech-in-wild-wcws-opener.html</loc>
     <lastmod>2025-06-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/how-workdays-new-product-leader-is-inspiring-a-fresh-love-for-the-platform.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/how-workdays-new-product-leader-is-inspiring-a-fresh-love-for-the-platform.html</loc>
     <lastmod>2025-06-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/south-korean-stocks-surge-2-amid-election-victory-boost.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/south-korean-stocks-surge-2-amid-election-victory-boost.html</loc>
     <lastmod>2025-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/the-mysterious-waving-of-cuttlefish-communication-or-something-else.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/the-mysterious-waving-of-cuttlefish-communication-or-something-else.html</loc>
     <lastmod>2025-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/global-economic-outlook-dims-as-us-growth-projections-slashed-amid-trade-tensions.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/the-mysterious-gestures-of-cuttlefish-what-are-they-really-communicating.html</loc>
     <lastmod>2025-06-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/the-mysterious-gestures-of-cuttlefish-what-are-they-really-communicating.html</loc>
-    <lastmod>2025-06-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/apples-frontier-the-quest-to-build-a-brain-computer-interface.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/apples-frontier-the-quest-to-build-a-brain-computer-interface.html</loc>
     <lastmod>2025-06-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/spanish-grand-prix-2025-russell-criticizes-verstappen-after-on-track-incident.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/spanish-grand-prix-2025-russell-criticizes-verstappen-after-on-track-incident.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/renewed-peace-talks-between-russia-and-ukraine-hope-or-hopelessness.html</loc>
+    <loc>https://your-autobloggerio-site.netlify.app/blog/renewed-peace-talks-between-russia-and-ukraine-hope-or-hopelessness.html</loc>
     <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/google-photos-unveils-exclusive-pixel-ai-tools-in-a-newly-redesigned-editor.html</loc>
-    <lastmod>2025-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>
