@@ -3,9 +3,93 @@
 <!-- IMPORTANT: Replace https://mgpconsultants.com/ with your actual site URL -->
   <url>
     <loc>https://mgpconsultants.com//index.html</loc>
-    <lastmod>2025-08-24</lastmod>
+    <lastmod>2025-08-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/tariff-confusion-triggers-mexicos-pause-on-us-postal-shipments.html</loc>
+    <lastmod>2025-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/nvidia-outlook-sparks-dip-in-us-futures-as-markets-digest-chip-signals.html</loc>
+    <lastmod>2025-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/groks-shocking-claims-and-wall-streets-red-flags-a-cautionary-tale-for-investors.html</loc>
+    <lastmod>2025-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/trade-shock-50-us-tariff-on-india-strains-modi-trump-ties.html</loc>
+    <lastmod>2025-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/ed-kelce-reflects-on-his-sons-engagement-to-taylor-swift-it-was-beautiful.html</loc>
+    <lastmod>2025-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/the-pen-stays-put-why-ai-doesnt-belong-in-journaling.html</loc>
+    <lastmod>2025-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/powerball-jackpot-surges-to-815-million-after-no-750-million-winner-emerges.html</loc>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/pritzkers-sharp-retort-to-trumps-weight-jab-shifts-the-political-conversation.html</loc>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/ai-meets-markets-googles-experiment-with-an-ai-driven-finance-interface.html</loc>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/a-photo-moment-on-the-us-open-stage-medvedev-exits-at-match-point.html</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/the-ai-disruption-gap-why-recent-grads-face-a-tougher-labor-market.html</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/illinois-leaders-respond-to-national-guard-talk-for-chicago.html</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/deportation-debates-a-hypothetical-case-involving-abrego-garcia-and-uganda.html</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/new-ai-frontier-access-googles-advanced-model-for-250-a-month.html</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mgpconsultants.com//blog/texas-redistricting-clash-rewrites-the-battle-lines-in-a-key-senate-race.html</loc>
@@ -338,19 +422,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/trade-tariffs-standoff-trump-maintains-10-global-baseline-canada-implements-35-tariff.html</loc>
-    <lastmod>2025-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://mgpconsultants.com//blog/wide-receiver-terry-mclaurin-seeks-departure-from-commanders-over-contract-dispute.html</loc>
-    <lastmod>2025-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/windows-11-turns-a-new-page-with-exciting-ai-features-in-its-latest-update.html</loc>
     <lastmod>2025-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -362,19 +434,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mgpconsultants.com//blog/counting-earthquakes-in-yellowstone-human-records-vs-ai-insights.html</loc>
-    <lastmod>2025-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://mgpconsultants.com//blog/asian-markets-open-mixed-amid-anticipation-for-federal-reserves-decision.html</loc>
-    <lastmod>2025-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/adidas-shares-plunge-as-tariffs-set-to-boost-us-consumer-prices.html</loc>
     <lastmod>2025-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -382,42 +442,6 @@
   <url>
     <loc>https://mgpconsultants.com//blog/amazons-ai-outlook-job-losses-and-new-opportunities.html</loc>
     <lastmod>2025-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/barclays-reports-surprising-profit-surge-in-q2-amid-robust-investment-banking-performance.html</loc>
-    <lastmod>2025-07-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/yellowstones-earthquakes-human-counting-vs-ai-predictions.html</loc>
-    <lastmod>2025-07-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/justice-and-tragedy-the-end-of-a-senescent-shadow-over-a-hateful-crime.html</loc>
-    <lastmod>2025-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/the-controversial-move-to-reintroduce-bias-in-ai-development.html</loc>
-    <lastmod>2025-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/geopolitical-tensions-rise-as-southeast-asia-navigates-us-backed-alliances-and-chinese-influence.html</loc>
-    <lastmod>2025-07-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mgpconsultants.com//blog/fantastic-four-first-steps-excites-fans-with-impressive-previews-ahead-of-release.html</loc>
-    <lastmod>2025-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
