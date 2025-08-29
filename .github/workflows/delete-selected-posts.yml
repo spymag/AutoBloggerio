@@ -33,8 +33,6 @@ jobs:
           fi
 
       - name: Run Deletion Script
-        env:
-          POSTS_TO_DELETE: ${{ env.POSTS_TO_DELETE_VALUE }}
         run: |
           python .github/scripts/delete_posts.py
 
