@@ -5,7 +5,7 @@ import openai # Added for OpenAI API integration
 import json
 from datetime import datetime # Added for date formatting
 
-def generate_content_with_openai(topic_string: str) -> str | None:
+def generate_content_with_openai(topic_string: str):
     """
     Generates blog post content in Markdown format using the OpenAI API.
     
@@ -87,18 +87,18 @@ def generate_content_with_openai(topic_string: str) -> str | None:
                 if not generated_markdown: # If markdown part is empty after split
                     print("Error: OpenAI API returned content but failed to parse Markdown part. Using full response as Markdown.")
                     generated_markdown = full_response_content.strip() # Fallback
-                
+
                 # Add the current date, formatted
                 current_date = datetime.now().strftime("%B %d, %Y")
                 generated_markdown_with_date = f"{generated_markdown}\n\nPublished: {current_date}\n"
-                
+
                 return generated_markdown_with_date, meta_description
             else:
                 print("Error: OpenAI API returned an empty response.")
                 return None, None
         else:
             print("Error: OpenAI API response did not contain the expected content structure.")
-            return None
+            return None, None
 
     except openai.AuthenticationError as e: # Changed from APIAuthenticationError
         print(f"OpenAI API Authentication Error: {e}")
@@ -117,7 +117,7 @@ def generate_content_with_openai(topic_string: str) -> str | None:
         print(f"An unexpected error occurred during OpenAI content generation: {e}")
     # REMOVE THE FINALLY BLOCK
     
-    return None, None # Return None if any error occurred
+    return None, None # Return None tuple if any error occurred
 
 
 def load_affiliate_links(filepath="config/affiliate_links.json") -> list:
