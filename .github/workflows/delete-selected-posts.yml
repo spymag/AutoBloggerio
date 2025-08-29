@@ -1,15 +1,7 @@
 name: Delete Selected Posts
 
 on:
-  workflow_dispatch:
-    inputs:
-      posts_to_delete_input:
-        description: 'Indices of posts to delete (e.g., "0 3 5" or "1-3 5"). Overrides repository variable.'
-        required: false
-        type: string
-  schedule:
-    - cron: '0 0 * * *' # Daily at midnight UTC
-  # Allow reading from repository variables if manual input is not provided.
+  workflow_dispatch: # Manual trigger only; removed scheduled run
 
 jobs:
   delete_posts_job:
