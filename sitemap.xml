@@ -3,9 +3,27 @@
 <!-- IMPORTANT: Replace https://mgpconsultants.com/ with your actual site URL -->
   <url>
     <loc>https://mgpconsultants.com//index.html</loc>
-    <lastmod>2025-08-29</lastmod>
+    <lastmod>2025-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/nebraska-edges-cincinnati-on-opening-night-as-raiola-steers-a-week-1-thriller.html</loc>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/taylor-townsend-finds-us-open-love-after-fiery-exchange-with-ostapenko.html</loc>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mgpconsultants.com//blog/ai-super-pacs-the-hottest-investment-in-techa-new-frontier-for-capital-and-influence.html</loc>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://mgpconsultants.com//blog/when-partisan-pressure-reaches-the-rails-ousting-a-democratic-regulator-on-a-federal-board.html</loc>
